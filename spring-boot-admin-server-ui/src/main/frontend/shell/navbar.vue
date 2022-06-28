@@ -89,7 +89,7 @@ export default {
   components: {NavbarLink, NavbarItemLanguageSelector},
   data: () => ({
     showMenu: false,
-    brand: '<img src="assets/img/icon-spring-boot-admin.svg"><span>Spring Boot Admin</span>',
+    brand: '<img src="assets/img/icon-spring-boot-admin.svg"><span>微服务运维平台</span>',
     userName: null,
     csrfToken: null,
     csrfParameterName: null,

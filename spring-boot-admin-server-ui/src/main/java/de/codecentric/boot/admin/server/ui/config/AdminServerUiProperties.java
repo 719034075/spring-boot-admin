@@ -72,12 +72,12 @@ public class AdminServerUiProperties {
 	/**
 	 * Page-Title to be shown.
 	 */
-	private String title = "Spring Boot Admin";
+	private String title = "微服务运维平台";
 
 	/**
 	 * Brand to be shown in then navbar.
 	 */
-	private String brand = "<img src=\"assets/img/icon-spring-boot-admin.svg\"><span>Spring Boot Admin</span>";
+	private String brand = "<img src=\"assets/img/icon-spring-boot-admin.svg\"><span>微服务运维平台</span>";
 
 	/**
 	 * If running behind a reverse proxy (using path rewriting) this can be used to output

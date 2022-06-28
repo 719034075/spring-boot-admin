@@ -107,15 +107,15 @@
         return `https://codecentric.github.io/spring-boot-admin/${this.version || 'current'}`;
       }
     },
-    install({viewRegistry}) {
-      viewRegistry.addView({
-        path: '/about',
-        name: 'about',
-        label: 'about.label',
-        order: 200,
-        component: this
-      });
-    }
+    // install({viewRegistry}) {
+    //   viewRegistry.addView({
+    //     path: '/about',
+    //     name: 'about',
+    //     label: 'about.label',
+    //     order: 200,
+    //     component: this
+    //   });
+    // }
   };
 </script>
 

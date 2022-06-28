@@ -24,7 +24,7 @@
     <meta name="format-detection" content="telephone=no,email=no">
     <meta name="theme-color" content="#42d3a5">
     <link rel="shortcut icon" th:href="${uiSettings.favicon}" type="image/png">
-    <title th:text="${uiSettings.title}">Spring Boot Admin - Login</title>
+    <title th:text="${uiSettings.title}">微服务运维平台 - Login</title>
 </head>
 <body class="login">
 
@@ -36,7 +36,7 @@
                     <figure class="image is-128x128 login--logo">
                         <img th:attr="src=${uiSettings.loginIcon}" src="assets/img/icon-spring-boot-admin.svg">
                     </figure>
-                    <h1 class="title has-text-primary" th:text="${uiSettings.title}">Spring Boot Admin</h1>
+                    <h1 class="title has-text-primary" th:text="${uiSettings.title}">微服务运维平台</h1>
                     <form method="post">
                         <input type="hidden"
                                th:if="${_csrf}"

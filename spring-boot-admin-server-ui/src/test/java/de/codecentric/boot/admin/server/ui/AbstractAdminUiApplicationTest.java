@@ -41,7 +41,7 @@ public abstract class AbstractAdminUiApplicationTest {
 					.expectStatus().isOk()
 					.expectHeader().contentTypeCompatibleWith(MediaType.TEXT_HTML)
 					.expectBody(String.class)
-					.value((body) -> assertThat(body).contains("<title>Spring Boot Admin</title>"));
+					.value((body) -> assertThat(body).contains("<title>微服务运维平台</title>"));
 		//@formatter:on
 	}
 
@@ -80,7 +80,7 @@ public abstract class AbstractAdminUiApplicationTest {
 					.expectStatus().isOk()
 					.expectHeader().contentTypeCompatibleWith(MediaType.TEXT_HTML)
 					.expectBody(String.class)
-					.value((body) -> assertThat(body).contains("<title>Spring Boot Admin</title>"));
+					.value((body) -> assertThat(body).contains("<title>微服务运维平台</title>"));
 		//@formatter:on
 	}
 
